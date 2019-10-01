@@ -29,3 +29,12 @@
   flex-direction: column;
   height: 80vh;
 }
+
+.yo {
+  height: 100vh;
+  background: #282c34;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+}
