@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/sadiahasa.github.io/static/css/main.bc9ab7fc.chunk.css",
-    "main.js": "/sadiahasa.github.io/static/js/main.a1a61f5f.chunk.js",
-    "main.js.map": "/sadiahasa.github.io/static/js/main.a1a61f5f.chunk.js.map",
-    "runtime-main.js": "/sadiahasa.github.io/static/js/runtime-main.9e35a19b.js",
-    "runtime-main.js.map": "/sadiahasa.github.io/static/js/runtime-main.9e35a19b.js.map",
-    "static/js/2.2d633a41.chunk.js": "/sadiahasa.github.io/static/js/2.2d633a41.chunk.js",
-    "static/js/2.2d633a41.chunk.js.map": "/sadiahasa.github.io/static/js/2.2d633a41.chunk.js.map",
-    "static/js/3.e4e31d95.chunk.js": "/sadiahasa.github.io/static/js/3.e4e31d95.chunk.js",
-    "static/js/3.e4e31d95.chunk.js.map": "/sadiahasa.github.io/static/js/3.e4e31d95.chunk.js.map",
-    "index.html": "/sadiahasa.github.io/index.html",
-    "static/css/main.bc9ab7fc.chunk.css.map": "/sadiahasa.github.io/static/css/main.bc9ab7fc.chunk.css.map",
-    "static/js/2.2d633a41.chunk.js.LICENSE.txt": "/sadiahasa.github.io/static/js/2.2d633a41.chunk.js.LICENSE.txt",
-    "static/media/Personal.css": "/sadiahasa.github.io/static/media/mountain.cd3df648.jpg",
-    "static/media/App.css": "/sadiahasa.github.io/static/media/world.8e19e768.jpg"
+    "main.css": "/sadiahasan.github.io/static/css/main.832f685d.chunk.css",
+    "main.js": "/sadiahasan.github.io/static/js/main.a1a61f5f.chunk.js",
+    "main.js.map": "/sadiahasan.github.io/static/js/main.a1a61f5f.chunk.js.map",
+    "runtime-main.js": "/sadiahasan.github.io/static/js/runtime-main.8fd91407.js",
+    "runtime-main.js.map": "/sadiahasan.github.io/static/js/runtime-main.8fd91407.js.map",
+    "static/js/2.2d633a41.chunk.js": "/sadiahasan.github.io/static/js/2.2d633a41.chunk.js",
+    "static/js/2.2d633a41.chunk.js.map": "/sadiahasan.github.io/static/js/2.2d633a41.chunk.js.map",
+    "static/js/3.e4e31d95.chunk.js": "/sadiahasan.github.io/static/js/3.e4e31d95.chunk.js",
+    "static/js/3.e4e31d95.chunk.js.map": "/sadiahasan.github.io/static/js/3.e4e31d95.chunk.js.map",
+    "index.html": "/sadiahasan.github.io/index.html",
+    "static/css/main.832f685d.chunk.css.map": "/sadiahasan.github.io/static/css/main.832f685d.chunk.css.map",
+    "static/js/2.2d633a41.chunk.js.LICENSE.txt": "/sadiahasan.github.io/static/js/2.2d633a41.chunk.js.LICENSE.txt",
+    "static/media/Personal.css": "/sadiahasan.github.io/static/media/mountain.cd3df648.jpg",
+    "static/media/App.css": "/sadiahasan.github.io/static/media/world.8e19e768.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9e35a19b.js",
+    "static/js/runtime-main.8fd91407.js",
     "static/js/2.2d633a41.chunk.js",
-    "static/css/main.bc9ab7fc.chunk.css",
+    "static/css/main.832f685d.chunk.css",
     "static/js/main.a1a61f5f.chunk.js"
   ]
 }
