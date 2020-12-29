@@ -3,6 +3,8 @@ import './App.css';
 // import Typewriter from 'typewriter-effect';
 import Typist from 'react-typist';
 import Personal from './Personal';
+import Specifics from './Specifics';
+
 
 
 function App() {
@@ -20,11 +22,12 @@ function App() {
           </div>
         </Typist>
         </header>
-      <div className="yo"> 
+      {/* <div className="yo">  */}
         <Personal />
+        <Specifics />
 
       
-      </div>
+      {/* </div> */}
     </div>
   );
 }

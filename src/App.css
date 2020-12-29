@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #282c34;
-  background-image: url('/Users/sadiahasan/Desktop/sadiahasan.github.io/src/world.jpg');
+  background-image: url('/Users/sadiahasan/Desktop/sadiahasan.github.io/src/world1.jpg');
   background-size: cover;
   min-height: 95vh;
   display: flex;
@@ -27,7 +27,8 @@
 .flex-container {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  background: rgba(0, 0, 0, 0.685);
+  /* height: 80vh; */
 }
 
 .yo {

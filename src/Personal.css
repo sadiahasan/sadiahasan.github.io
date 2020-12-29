@@ -2,12 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     height: 95vh;
-    justify-content: space-evenly;
+    width: 100vw;
+    justify-content: center;
     align-items: center;
     color: wheat;
     background-image: url('/Users/sadiahasan/Desktop/sadiahasan.github.io/src/mountain.jpg');
     background-size: cover;
-
 }
 
 .box {
@@ -19,6 +19,23 @@
     /* white-space: nowrap; */
 }
 
+.first-box {
+    /* height: 30%; */
+    min-width: 20%;
+    background: rgba(29, 28, 28, 0.88);
+    padding: 5%;
+    border-radius: 5%;
+}
+
+.profile-box {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5%;
+}
+
 .row {
     display: flex;
     justify-content: space-evenly;
@@ -27,4 +44,12 @@
 }
 .blurb {
     width: 30vw;
+}
+
+.image {
+        height: 30%;
+        object-fit: contain;
+        margin-bottom: 5%;
+        
+        
 }
