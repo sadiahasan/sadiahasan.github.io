@@ -1,0 +1,30 @@
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 95vh;
+    justify-content: space-evenly;
+    align-items: center;
+    color: wheat;
+    background-image: url('/Users/sadiahasan/Desktop/sadiahasan.github.io/src/mountain.jpg');
+    background-size: cover;
+
+}
+
+.box {
+    height: 30%;
+    min-width: 20%;
+    background: rgba(29, 28, 28, 0.88);
+    padding: 5%;
+    border-radius: 5%;
+    /* white-space: nowrap; */
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.blurb {
+    width: 30vw;
+}

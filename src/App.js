@@ -1,17 +1,14 @@
 import React from 'react';
 import './App.css';
-import Typewriter from 'typewriter-effect';
+// import Typewriter from 'typewriter-effect';
 import Typist from 'react-typist';
-import Weather from './Weather';
-import Info from './Info';
-import Music from './Music';
+import Personal from './Personal';
+
 
 function App() {
   var i = 0;
   var txt = 'Lorem ipsum dummy text blabla.';
   var speed = 50;
-
-
 
   return (
     <div className="App">
@@ -24,10 +21,7 @@ function App() {
         </Typist>
         </header>
       <div className="yo"> 
-      <Info/>
-      <Weather/>
-      <Music/>
-      <Music/>
+        <Personal />
 
       
       </div>
