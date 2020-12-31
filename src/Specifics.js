@@ -1,44 +1,68 @@
 import React from 'react';
-// import './Personal.css'
+import './Specifics.css'
 import pic from './me.png';
+import {web_dev} from './Skills.helper';
+import {blockchain} from './Skills.helper';
+import {programming} from './Skills.helper';
+import {design} from './Skills.helper';
 
-class Personal extends React.Component {
 
-   render() {
+
+function Specifics() {
       return (
-         <div className='box1'>
-            <div className="profile-box">
-                 <img className="image" src={pic} />
-                 <div className="first-box">
-
-               <div className="row">
-                  <div> 
-                     <h3>Name: </h3>
-                     <h3>Location: </h3>
-
-                  </div>
-                  <div> 
-                     <h4>Sadia Hasan</h4>
-                     <h4>NYC</h4>
-                  </div>
-               </div>
-
-            </div>
-            </div>
-            <div className="box">
-               <div className="blurb">
-               <h2>Hi! I'm a New York based software developer with experience in many different development technogies in web dev and blockchain
-               </h2>
-               </div>
-            </div>
+         <div className='box1-specifics'>
+            <h1 className="label"> Skills: </h1>
+    
+    <div className="circle-container">
+         <h2 className="label"> &nbsp;Web Dev:&nbsp; </h2>
+           <div className='circle'>
+              <div className="circle-text">
+                {web_dev.map((skill) => {
+                    return <div>{skill.name}</div>
+                    console.log(skill.name)
+                })}
+                </div>
+           </div>
+           </div>
 
 
+           <div className="circle-container">
+         <h2 className="label"> &nbsp;Blockchain:&nbsp; </h2>
+           <div className='circle'>
+              <div className="circle-text">
+                {blockchain.map((skill) => {
+                    return <div>{skill.name}</div>
+                    console.log(skill.name)
+                })}
+                </div>
+           </div>
+           </div>
 
-            
-                              
+           <div className="circle-container">
+         <h2 className="label"> &nbsp;Programming:&nbsp; </h2>
+           <div className='circle'>
+              <div className="circle-text">
+                {programming.map((skill) => {
+                    return <div>{skill.name}</div>
+                    console.log(skill.name)
+                })}
+                </div>
+           </div>
+           </div>
 
+           <div className="circle-container">
+         <h2 className="label"> &nbsp;Design:&nbsp; </h2>
+           <div className='circle'>
+              <div className="circle-text">
+                {design.map((skill) => {
+                    return <div>{skill.name}</div>
+                    console.log(skill.name)
+                })}
+                </div>
+           </div>
+           </div>
+           
          </div>
       );
-   }
 }
-export default Personal;
+export default Specifics;

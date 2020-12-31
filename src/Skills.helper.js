@@ -43,6 +43,61 @@ export const web_dev  = [
 
   ]
   
+export const programming = [
+  {
+    name: "Java",
+    size: 20
+  },
+  {
+    name: "C++",
+    size: 20
+  },
+  {
+    name: "Python",
+    size: 20
+  },
+  {
+    name: "Database (SQL/noSQL)",
+    size: 20
+  },
+]
+
+export const design = [
+  {
+    name: "Adobe Creative Cloud",
+    size: 20
+  },
+  {
+    name: "SketchApp",
+    size: 20
+  },
+  {
+    name: "UI/UX",
+    size: 20
+  },
+]
+
+export const blockchain = [
+  {
+    name: "Quorum",
+    size: 20
+  },
+  {
+    name: "Truffle",
+    size: 20
+  },
+  {
+    name: "Solidity SmartContracts",
+    size: 20
+  },
+  {
+    name: "Geth",
+    size: 20
+  },
+]
   export default {
-      skills,
+      web_dev,
+      programming,
+      design,
+      blockchain
   }
